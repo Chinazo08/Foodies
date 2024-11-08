@@ -1,0 +1,37 @@
+/* resent css */
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    border: 1px solid blue;
+    padding: 0 80px;
+}
+ul {
+    display: flex;
+}
+
+.nav-item {
+    list-style: none;
+    margin: 0px 15px;
+}
+.nav-link {
+    font-size: 18px;
+    color: rgb(85, 84, 84);
+}
+
+.btn {
+    padding: 0px 18px;
+    color: rgb(68, 151, 68);
+}
+.logo {
+    color: rgb(68, 151, 68);
+    font-size: 30px;
+    font-weight: 300;
+}
