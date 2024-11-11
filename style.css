@@ -5,6 +5,9 @@
     text-decoration: none;
     box-sizing: border-box;
 }
+.body {
+    font-family: "Inter", sans-serif;
+}
 header {
     display: flex;
     justify-content: space-between;
@@ -99,3 +102,67 @@ ul {
     margin-left: 5px;
     color: rgb(95, 91, 91);
 }
+
+.veggie-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 80px;
+}
+
+.veggie-heading {
+    font-size: 15px;
+}
+
+.veggie-text {
+    font-size: 40px;
+    margin-top: 20px;
+}
+
+.veggie-number {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.number-content {
+    margin-top: 30px;
+    /* border: 1px solid purple; */
+}
+.number {
+    font-size: 25px;
+    justify-content: center;
+    /* align-items: center; */
+    text-align: center;
+    color: rgb(30, 172, 30);
+}
+
+.text {
+    color: rgb(83, 81, 81);
+    margin-top: 10px;
+}
+
+.veggie-anchor {
+    margin-top: 50px;
+}
+
+.right-veggie-section {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 70px 10px;
+}
+.veggie-btn {
+    background-color: rgb(86, 148, 86);
+    color: white;
+    width: 150px;
+    height: 60px;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
