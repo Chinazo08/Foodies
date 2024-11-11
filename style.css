@@ -35,3 +35,67 @@ ul {
     font-size: 30px;
     font-weight: 300;
 }
+
+
+/* HERO SECTION STYLES */
+
+.foodies-section {
+    display: flex;
+    justify-content: space-between;
+    height: 100vh;
+    height: calc(100vh-60px);
+    border: 1px solid red;
+    padding: 0 80px;
+    background-color: aliceblue;
+}
+
+.left-foodies-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    
+}
+
+.right-foodies-section {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.foodies-text {
+    font-size: 40px;
+}
+
+.foodies-content {
+    color: rgb(105, 105, 105);
+    margin-top: 20px;
+}
+
+.foodies-btn {
+    background-color: rgb(98, 172, 98);
+    width: 100px;
+    height: 45px;
+    color: white;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2px;
+    margin-top: 20px;
+}
+
+.image-section {
+    display: flex;
+    justify-content: space-between;
+}
+
+.images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+    margin-left: 5px;
+    color: rgb(95, 91, 91);
+}
